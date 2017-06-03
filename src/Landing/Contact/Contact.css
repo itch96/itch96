@@ -1,0 +1,37 @@
+.contactBadge {
+    margin: 0 auto;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.contactBadge > a {
+    font-size: 350%;
+    text-shadow: 2px 2px 5px black;
+}
+
+#Facebook > i {
+    color: #3B5998;
+}
+
+#Twitter > i {
+    color: #00aced;
+}
+
+#Github > i {
+    color: black;
+}
+
+#LinkedIn > i {
+    color: #0077b5;
+}
+
+.contactBadge > a:hover {
+    animation: elevate 0.3s ease-in-out forwards;
+}
+
+@keyframes elevate {
+    100% {
+        transition: scale(1.2);
+        text-shadow: 4px 4px 4px black;
+    }
+}

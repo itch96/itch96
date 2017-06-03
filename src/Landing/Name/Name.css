@@ -1,0 +1,16 @@
+.name {
+    margin: 20px auto;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 13vh;
+}
+
+.name > h1 {
+    font-size: 170%;
+    font-family: 'Satisfy';
+}
+
+.name > p {
+    font-size: 50%;
+    color: #757575;
+}

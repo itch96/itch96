@@ -1,0 +1,14 @@
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 1000px;
+    margin: 0vh auto 0vh auto;
+    padding-top: 13vh;
+}
+
+.image > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 1000px;
+    box-shadow: 2px 2px 10px black;
+}
