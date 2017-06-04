@@ -32,3 +32,11 @@
 .project > a:hover {
     text-decoration: none;
 }
+
+.project > a > h3 {
+    color: black;
+}
+
+.project > a > p {
+    color: #757575;
+}
