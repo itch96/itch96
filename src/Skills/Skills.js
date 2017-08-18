@@ -23,10 +23,11 @@ class Skills extends React.Component {
                 
                     <Skill name='MySQL' icon='devicon-mysql-plain colored'/>
                     <Skill name='Oracle DB' icon='devicon-oracle-original colored'/>
+                    <Skill name="MongoDB" icon="devicon-mongodb-plain colored" />
                 
                     <Skill name='git' icon='devicon-git-plain colored'/>
                     <Skill name='Webpack' icon='devicon-webpack-plain colored'/>
-                    <Skill name='C' icon='devicon-c-plain-wordmark colore'/>
+                    <Skill name='C' icon='devicon-c-plain-wordmark colored'/>
                     <Skill name='Tomcat' icon='devicon-tomcat-line colored'/>
                     <Skill name='ShellScripting' icon='devicon-linux-plain colored'/>
             </div>

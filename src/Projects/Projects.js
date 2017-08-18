@@ -15,7 +15,7 @@ class Projects extends React.Component {
         // add first:true to every 3rd Project and first:false to others.
         return (
             <div className="projects container">
-                <h2 className='col-md-11 col-md-offset-1'>Projects</h2>
+                <h2 className='col-md-11 col-md-offset-1 col-xs-12'>Projects</h2>
                 <Project first='true' name='Recipe Book' image={RecipeImg} target='https://itch96.github.io/recipes' description='Your recipe book where you can add, edit or delete your recipes. Built using ServiceWorker for caching and ReactJS for UI.'/>
                 <Project first='false' name='Tennis Game' image={TennisImg} target='https://itch96.github.io/Tennis' description='Play Tennis online with your computer to kill time. Built using HTML5 canvas and JavaScript.'/>
                 <Project first='false' name='Simon Game' image={SimonImg} target='https://itch96.github.io/simon' description='Play the classic simon game on the web. Built using HTML, CSS, Saas, Bootstrap, JavaScript, and jQuery.'/>
